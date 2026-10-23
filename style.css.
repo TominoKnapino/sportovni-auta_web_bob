@@ -76,3 +76,48 @@ section img {
     margin: 20px auto;
     border-radius: 10px;
 }
+section {
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    border: 1px solid #292929;
+}
+
+section:hover {
+    transform: translateY(-4px);
+    border-color: #e63946;
+}
+
+a {
+    transition: color 0.3s ease;
+}
+
+main ul {
+    padding-left: 25px;
+}
+
+main li {
+    margin-bottom: 12px;
+}
+
+main li a {
+    color: #e63946;
+    text-decoration: none;
+}
+
+main li a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 6px 8px;
+    }
+
+    section {
+        padding: 18px;
+    }
+}
