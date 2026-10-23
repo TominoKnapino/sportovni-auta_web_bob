@@ -3,10 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sportovní auta</title>
+    <title>Sportovní auta | Svět rychlosti</title>
 </head>
 <body>
-    <h1>Svět sportovních aut</h1>
-    <p>Vítej na stránce věnované sportovním automobilům.</p>
+    <header>
+        <h1>Svět sportovních aut</h1>
+        <p>Výkon, rychlost a automobilové legendy na jednom místě.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Vítej ve světě rychlosti</h2>
+            <p>
+                Sportovní automobily jsou symbolem technologií,
+                výkonu a jedinečného designu. Každý model má svůj
+                vlastní charakter, historii a zajímavé vlastnosti.
+            </p>
+        </section>
+
+        <section>
+            <h2>Co na webu najdeš?</h2>
+            <p>
+                Prohlédni si zajímavé sportovní vozy, seznam se
+                s jejich motory a objev fakta ze světa automobilů.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Školní projekt – Svět sportovních aut</p>
+    </footer>
 </body>
 </html>
