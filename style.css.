@@ -68,3 +68,11 @@ nav a {
 nav a:hover {
     color: #e63946;
 }
+section img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
